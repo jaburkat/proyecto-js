@@ -1,0 +1,291 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1EDEE;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  font-size: 1.7rem;
+  color: #DB5461!important;
+  font-weight: 900;
+  transition: transform 1s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.menu {
+  background-color: #3D5467;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #F1EDEE!important;
+}
+
+.nav-link:hover {
+  color: #DB5461 !important;
+}
+
+.navbar-toggler {
+  border: none;
+} 
+  @media screen and (max-width: 990px) {
+    .navbar .container .navbar-nav .nav-item a:hover::after {
+      display: none;
+    }
+  }
+  
+.card-title {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+.card-text {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.description {
+  color: #000;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+a {
+  color: #DB5461;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3D5467;
+}
+.price {
+  font-weight: 900;
+  color: #DB5461;
+}
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.filter-product{
+  display: none;
+}
+
+#no-products-found {
+  display: none;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #DB5461;
+  margin-bottom: 100px;
+}
+
+.cart-item {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid #686963;
+margin-bottom: 22px;
+background-color: white;
+}
+
+.total-carrito {
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-weight: bolder;
+}
+
+.menos {
+  color: #DB5461;
+  font-size: 1.5rem;
+}
+
+.mas {
+  color: #8AA29E;
+  font-size: 1.5rem;
+}
+
+.chau {
+  color: #DB5461;
+  font-size: 1.7rem;
+}
+
+#cartAmount {
+  margin-right: 2px;
+  color: #E0CA3C;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.carrito {
+  background-color: #DB5461 !important;
+  color: #3D5467 !important;
+  border: none;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.carrito:hover {
+  background-color:#8AA29E !important;
+  color: #686963 !important;
+}
+
+label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+input[value="blanco"] + span {
+  background-color: white;
+  border: 1px solid black;
+  }
+
+input[value="rojo"] + span {
+  background-color: red;
+}
+
+input[value="verde"] + span {
+  background-color: green;
+}
+
+input[value="azul"] + span {
+  background-color: blue;
+}
+
+input[type="checkbox"] {
+  display: none;
+  }
+
+input[type="checkbox"]:checked + span {
+    opacity: 0.2;
+  }
+
+.pie {
+  margin-top: auto;
+  color:#DB5461;
+  background-color: #3D5467;
+  font-weight: bold;
+}
+#resultado {
+  font-size: 1.5rem;
+}
+#superficie {
+  font-weight: 900;
+}
+
+#litros {
+  font-weight: 900;
+}
+
+.btn {
+  color: #F1EDEE;
+  border: none;
+  font-weight: 700;
+}
+.btn-primary {
+  background-color: #3D5467 !important;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #E0CA3C !important;
+  color: #3D5467;
+  border: none;
+}
+.borrarfiltros {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.checkOut {
+  background-color: #8AA29E !important;
+  color: #000;
+  font-size: 1.3rem;
+}
+.checkOut:hover {
+  color: #3D5467
+}
+
+.removeAll {
+  background-color: #DB5461 !important;
+  color: #000;
+  font-size: 1.3rem;
+}
+
+.removeAll:hover {
+  background-color: #3D5467!important;
+}
+
+.calculadora {
+  width: 30%;
+}
+
+.toastify { 
+  font-weight: 700;
+  text-align: center;
+}
+#color-picker {
+  width: 50px;
+  height: 50px;
+}
+#color-palette {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-block {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.selectcolor {
+  font-size: 1.2rem;
+}
+
+.color-block.selected {
+  border: 5px solid #3D5467;
+  outline: 5px solid #E0CA3C;
+
+}
+
+@media screen and (max-width: 990px) {
+  .calculadora {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .findProducts {
+    width: 100% !important;
+  }
+}
+

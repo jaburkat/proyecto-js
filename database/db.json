@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "name": "Enduplast 4KG",
+    "description": "Enduido plastico",
+    "category": "Pinturas",
+    "price": 2350.00,
+    "img": "img/enduido.webp"
+  },
+  {
+    "id": 2,
+    "name": "Recuplast Superlavable 20 LT",
+    "description": "Latex Satinado Blanco",
+    "category": "Pinturas",
+    "color": "blanco",
+    "price": 40560.56,
+    "img": "img/superlavable.webp"
+  },
+  {
+    "id": 3,
+    "name": "Recuplast Frentes 4 LT",
+    "description": "Latex para frentes Azul",
+    "category": "Pinturas",
+    "color": "azul",
+    "price": 10860.42,
+    "img": "img/recuplast-frentes.webp"
+  },
+  {
+    "id": 4,
+    "name": "Recuplast Interior 1 LT",
+    "description": "Latex interior Verde",
+    "category": "Pinturas",
+    "color": "verde",
+    "price": 3200.30,
+    "img": "img/recuplast.webp"
+  },
+  {
+    "id": 5,
+    "name": "Acrilplast Exterior 4 LT",
+    "description": "Latex exterior Rojo",
+    "category": "Pinturas",
+    "color": "rojo",
+    "price": 9766.40,
+    "img": "img/acrilplast.webp"
+  },
+  {
+    "id": 6,
+    "name": "Lija N°100",
+    "description": "Lija al agua",
+    "category": "Accesorios",
+    "price": 120.00,
+    "img": "img/lija.webp"
+  },
+  {
+    "id": 7,
+    "name": "Rodillo Antigota",
+    "description": "Rodillo Antigota 22cm",
+    "category": "Accesorios",
+    "price": 5691.95,
+    "img": "img/rodillo.webp"
+  },
+  {
+    "id": 8,
+    "name": "Bandeja Pintor",
+    "description": "Bandeja de PVC",
+    "category": "Accesorios",
+    "price": 660.78,
+    "img": "img/bandeja.webp"
+  },
+  {
+    "id": 9,
+    "name": "Pincel N°2",
+    "description": "Pincel cerda sintetica",
+    "category": "Accesorios",
+    "price": 4172.46,
+    "img": "img/pincel.webp"
+  },
+  {
+    "id": 10,
+    "name": "Brilloplast Sintetico 1 LT",
+    "description": "Sintetico Rojo con antioxido",
+    "category": "Pinturas",
+    "color": "rojo",
+    "price": 2670.00,
+    "img": "img/brilloplast.webp"
+  }
+]
+
+
+
+

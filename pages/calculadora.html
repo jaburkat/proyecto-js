@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="PONTOCOLOR PINTURERIA">
+    <meta name="keywords" content="Pintura, Látex, sintético, enduido, pincel, rodillo, lija, color">
+    <!-- TITULO -->
+    <title>PONTOCOLOR</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.webp">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/31dab08d1f.js" crossorigin="anonymous"></script>
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg menu">
+          <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="../index.html">
+              <!--<img src="./img/logo.webp" alt="Logo" class="logo-img">-->
+              PONTOCOLOR
+            </a>
+            <!-- MENU HAMBURGESA -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span role="button" ><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
+            </button>
+            <!-- LINKS MENU -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="calculadora.html" >Calculadora de litros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="colores.html">Colores preparados</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+  <!-- CALCULADORA -->
+  <div class="container calculadora mt-5 text-center">
+    <h1>CALCULADORA DE LITROS</h1>
+    <form>
+      <div class="form-group">
+        <label for="ancho">Ancho (en metros):</label>
+        <input type="number" class="form-control" id="ancho" aria-describedby="widthHelp">
+        <small id="widthHelp" class="form-text text-muted">Introduzca el ancho de la superficie a pintar.</small>
+      </div>
+      <div class="form-group">
+        <label for="alto">Altura (en metros):</label>
+        <input type="number" class="form-control" id="alto" aria-describedby="heightHelp">
+        <small id="heightHelp" class="form-text text-muted">Introduzca la altura de la superficie a pintar.</small>
+      </div>
+      <div class="form-group">
+        <label for="tipoPintura">Tipo de Pintura:</label>
+        <select class="form-control" id="tipoPintura">
+          <option>Látex</option>
+          <option>Sintético</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-lg btn-primary my-3 litrosPinturas">CALCULAR</button>
+    </form>
+    <div class="mt-3" id="resultado">
+    </div>
+  </div>
+  
+  <!-- FOOTER --> 
+  <footer class="pie py-3">
+    <div class="container">
+      <p class="text-center">&copy; 2023 PONTOCOLOR</p>
+    </div>
+  </footer>
+      
+   <!-- JS SCRIPT -->
+  <script src="../js/calculadora.js"></script>
+  <!-- TOASTIFY LIBRERIA -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
